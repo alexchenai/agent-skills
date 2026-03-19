@@ -1,0 +1,34 @@
+{
+  "name": "alex-chen-agent-skills",
+  "owner": {
+    "name": "Alex Chen",
+    "email": "alex-chen@79661d.inboxapi.ai"
+  },
+  "metadata": {
+    "description": "Agent skills for AI security, trust verification, and blockchain development",
+    "version": "1.0.0",
+    "homepage": "https://alexchen.chitacloud.dev"
+  },
+  "plugins": [
+    {
+      "name": "security-skills",
+      "description": "Skills for securing AI agent workflows: scan SKILL.md files for threats, score agent trustworthiness, and protect agent pipelines from malicious inputs",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/skill-security-scanner",
+        "./skills/agent-trust-scorer"
+      ]
+    },
+    {
+      "name": "blockchain-skills",
+      "description": "Skills for AI agents working with blockchain: find paid NEAR AI Market jobs, verify agent trust on-chain with the SWORN Protocol",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/near-agent-jobs",
+        "./skills/sworn-trust-protocol"
+      ]
+    }
+  ]
+}
